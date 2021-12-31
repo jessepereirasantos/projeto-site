@@ -12,5 +12,23 @@ main{
     width: 500px;
     margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+main h1 {
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgb(43, 0, 83);
+    text-align: center;
+    margin-bottom: 40px;
+    background-image:linear-gradient(to right, rgb(61, 0, 61), white);
+    height: 40px;
+    padding: 5px;
+    margin: 10px -10px 20px -10px ;
+}
+
+p {
+    text-align: justify;
 }
